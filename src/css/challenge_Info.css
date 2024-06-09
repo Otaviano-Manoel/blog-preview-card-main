@@ -1,0 +1,28 @@
+:root {
+    --font-family: "Poetsen One", sans-serif;
+    --font-weight: 400;
+    --font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.info {
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.info p {
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+}
+
+
+@media only screen and (max-width: 590px) {
+    .info{
+        align-items: center;
+        flex-direction: column;
+    }   
+}

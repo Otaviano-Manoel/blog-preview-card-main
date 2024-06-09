@@ -1,0 +1,22 @@
+@media only screen and (max-width: 410px) {
+    .card{
+        width: 327px;
+    }
+
+    .imgCover{
+        width: 279px;
+    }
+    .category{
+        font-size: 12px;
+    }
+    .publishdate{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 14px;
+    }
+
+}

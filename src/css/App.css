@@ -1,0 +1,13 @@
+.App {
+  background-color: #F4D04E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.challenge-info{
+  position: fixed;
+  bottom: 0;
+}
